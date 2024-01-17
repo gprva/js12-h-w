@@ -112,14 +112,21 @@ section{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
+	margin-right: 20px;
 	padding: 14px 0;
 	transition: 0.3s;
 	margin-bottom: 20px;
+
 }
 .btn:hover{
 	box-shadow: 0px 6px 5px 2px #000000;
 }
+.calculator{
+	border: 3px ridge #000;
+	padding: 20px;
+	width: 50%;
+	box-shadow: 0px 6px 5px 2px #585856;
+	background: #e2e2e2;}
 .link{
 	transition: 0.3s;
 }
@@ -152,4 +159,17 @@ section{
 }
 .btn__acc.active{
 	--background: red;
+}
+.calc{
+	display: flex;
+}
+.result{
+	border: 1px solid #000;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+	background: rgb(29, 255, 4);
+	margin-top: 30px;
+	width: 30%;
 }
